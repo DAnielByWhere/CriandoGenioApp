@@ -1,18 +1,27 @@
 import 'package:flutter/material.dart';
+import 'package:washi/Informativa.dart';
+import 'package:washi/lista.dart';
 
-// ignore: must_be_immutable
-class MatPage extends StatelessWidget {
-   MatPage({super.key});
+class Fisica extends StatefulWidget {
+  const Fisica({super.key});
 
-List conteudos = ["Aritmetica e Algebra", "Geometria", "Funções", "Estatistica e Probabilidade", "Matematica Financeira", "Matrizes, Determinantes..."];
+  @override
+  State<Fisica> createState() => _FisicaState();
+}
 
+class _FisicaState extends State<Fisica> {
+
+
+  List<Modulo> modulos = <Modulo>[
+
+  ];
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: const Color.fromARGB(255, 231, 78, 132),
+        backgroundColor: const Color.fromARGB(255, 0, 97, 16),
         body: Center(child: 
         Column( 
           children: <Widget>[
@@ -38,8 +47,8 @@ List conteudos = ["Aritmetica e Algebra", "Geometria", "Funções", "Estatistica
                 )),
 
               const Positioned(
-                left: 58,
-                child: Text('MATEMATICA', 
+                left: 130,
+                child: Text('FISICA', 
                 style: TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
@@ -69,7 +78,7 @@ List conteudos = ["Aritmetica e Algebra", "Geometria", "Funções", "Estatistica
                 color: Colors.white,
               ),
               child: ListView.builder(
-                itemCount: conteudos.length,
+                itemCount: modulos.length,
                 shrinkWrap: true,
                 padding: const EdgeInsets.all(9),
                 scrollDirection: Axis.vertical,
@@ -91,15 +100,22 @@ List conteudos = ["Aritmetica e Algebra", "Geometria", "Funções", "Estatistica
                             ),
 
                             Text(
-                              conteudos[index],
+                              modulos[index].Nome,
                               style: const TextStyle(
                                 color: Colors.white,
                                 fontSize: 18,
-                              )
-                            )
+                              ),
+                            ),
                           ],
                         ),
                       ),
+
+                      onTap: () => Navigator.push(context, 
+                        MaterialPageRoute(
+                          builder: (context) => const Informativa(),
+                          settings: RouteSettings(arguments: modulos[index]),
+                          )
+                        ),
                     ),
                   );
                 } 

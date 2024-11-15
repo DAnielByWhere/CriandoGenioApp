@@ -200,7 +200,7 @@ _launchURL(Uri url) async {
           ),
 
           SizedBox(
-            height: 400,
+            height: 430,
             width: 400,
             child: Stack(
               children: 
@@ -220,7 +220,7 @@ _launchURL(Uri url) async {
 
                   Positioned(
                     top: 40,
-                    left: 20,
+                    left: 30,
                     child: 
                       SizedBox(
                         width: 330,
@@ -230,21 +230,66 @@ _launchURL(Uri url) async {
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 20,
-                          
                         ),
                         ),
                       ),
-                    
-                  
                   ),
-
-
-
                 ],
               ),
-          )
+          ),
+
+          SizedBox(
+              height: 50,
+            ),
+
+          Container(
+              height: 400,
+              width: 300,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: const Color.fromRGBO(230, 33, 105, 0.874),
+              ),
+              child: Stack(
+                children: <Widget>[
+
+                  Positioned(
+                  top: 20,
+                  left: 128,
+                  child: Text('Dica', 
+                    style: 
+                      TextStyle(
+                        color: Color.fromARGB(255, 255, 255, 255),
+                        fontSize: 25,
+                        fontWeight: FontWeight.w500
+                      ),
+                    ),
+                  ),
+
+                  Positioned(
+                    top: 60,
+                    left: 37,
+                    child: 
+                      SizedBox(
+                        width: 230,
+                        child: Text(modulos.Dica,
+                        textAlign: TextAlign.justify,
+                        softWrap: true,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                        ),
+                        ),
+                      ),
+                  ),
+                ],
+              ),
+            ),
 
 
+
+            SizedBox(
+              height: 50,
+            )
 
           ],
 

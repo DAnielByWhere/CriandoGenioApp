@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:washi/fisica.dart';
 import 'package:washi/manu.dart';
 import 'package:washi/matematica.dart';
 
@@ -135,7 +136,7 @@ class PrincipalPage extends StatelessWidget {
                   child: GestureDetector(
                     onTap: (){
                       Navigator.push(
-                        context, MaterialPageRoute(builder: (context) => const ManuPage())
+                        context, MaterialPageRoute(builder: (context) => const Fisica())
                       );
                     },
                     child: Container(
