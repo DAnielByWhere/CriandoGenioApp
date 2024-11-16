@@ -16,7 +16,6 @@ class _MatematicaState extends State<Matematica> {
   List<Modulo> modulos = <Modulo>[
 
     Modulo(1, "Aritmetica", "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "Vai na fé", Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a"), Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a"), Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a"), Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a")),
-    Modulo(2, "item2", "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "Loreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeem", Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a"), Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a"), Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a"), Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a")),
 
   ];
 

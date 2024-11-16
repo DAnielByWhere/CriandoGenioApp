@@ -1,12 +1,11 @@
-// ignore_for_file: file_names, prefer_const_constructors
+// ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:washi/lista.dart';
 
-class Informativa extends StatelessWidget {
-  const Informativa({super.key});
-
+class InformativaF extends StatelessWidget {
+  const InformativaF({super.key});
 _launchURL(Uri url) async {
     if(!await launchUrl(url)) {
       throw Exception('Não foi possivel acessar o site');
@@ -96,7 +95,7 @@ _launchURL(Uri url) async {
                       height: 70,
                       padding: EdgeInsets.fromLTRB(20, 15, 0, 0),
                       decoration: BoxDecoration(
-                        color: Color.fromRGBO(230, 33, 105, 1),
+                        color: Color.fromARGB(255, 0, 97, 16),
                         borderRadius: BorderRadius.circular(12),
                       ),
                     
@@ -124,7 +123,7 @@ _launchURL(Uri url) async {
                       height: 70,
                       padding: EdgeInsets.fromLTRB(20, 15, 0, 0),
                       decoration: BoxDecoration(
-                        color: Color.fromRGBO(230, 33, 105, 1),
+                        color: Color.fromARGB(255, 0, 97, 16),
                         borderRadius: BorderRadius.circular(12),
                       ),
                     
@@ -152,7 +151,7 @@ _launchURL(Uri url) async {
                       height: 70,
                       padding: EdgeInsets.fromLTRB(20, 15, 0, 0),
                       decoration: BoxDecoration(
-                        color: Color.fromRGBO(230, 33, 105, 1),
+                        color: Color.fromARGB(255, 0, 97, 16),
                         borderRadius: BorderRadius.circular(12),
                       ),
                     
@@ -180,7 +179,7 @@ _launchURL(Uri url) async {
                       height: 70,
                       padding: EdgeInsets.fromLTRB(20, 15, 0, 0),
                       decoration: BoxDecoration(
-                        color: Color.fromRGBO(230, 33, 105, 1),
+                        color: Color.fromARGB(255, 0, 97, 16),
                         borderRadius: BorderRadius.circular(12),
                       ),
                     
@@ -247,7 +246,7 @@ _launchURL(Uri url) async {
               width: 300,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
-                color: const Color.fromRGBO(230, 33, 105, 1),
+                color: const Color.fromARGB(255, 0, 97, 16),
               ),
               child: Stack(
                 children: <Widget>[

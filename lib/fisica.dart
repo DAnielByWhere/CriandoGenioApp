@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:washi/Informativa.dart';
+import 'package:washi/informativaf.dart';
 import 'package:washi/lista.dart';
 
 class Fisica extends StatefulWidget {
@@ -13,7 +13,7 @@ class _FisicaState extends State<Fisica> {
 
 
   List<Modulo> modulos = <Modulo>[
-
+    Modulo(1, "Aritmetica", "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "Vai na fé", Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a"), Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a"), Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a"), Uri.parse("https://youtu.be/dQw4w9WgXcQ?si=SW3xLeiHFUc_-q6a")),
   ];
 
   @override
@@ -84,7 +84,7 @@ class _FisicaState extends State<Fisica> {
                 scrollDirection: Axis.vertical,
                 itemBuilder: (BuildContext context, int index){
                   return Card(
-                    color: const Color.fromARGB(255, 231, 78, 132),
+                    color: const Color.fromARGB(255, 0, 97, 16),
                     child: ListTile(
                       title: Padding(
                         padding: const EdgeInsets.all(5),
@@ -112,7 +112,7 @@ class _FisicaState extends State<Fisica> {
 
                       onTap: () => Navigator.push(context, 
                         MaterialPageRoute(
-                          builder: (context) => const Informativa(),
+                          builder: (context) => const InformativaF(),
                           settings: RouteSettings(arguments: modulos[index]),
                           )
                         ),
