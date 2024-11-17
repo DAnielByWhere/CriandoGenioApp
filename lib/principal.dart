@@ -87,7 +87,7 @@ class PrincipalPage extends StatelessWidget {
                         )]  
                       ),
                     child: 
-                    const Text('Em manutenção',
+                    const Text('Conhecimento Absoluto',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 20,

@@ -199,7 +199,7 @@ _launchURL(Uri url) async {
           ),
 
           SizedBox(
-            height: 430,
+            height: 640,
             width: 400,
             child: Stack(
               children: 
@@ -271,7 +271,7 @@ _launchURL(Uri url) async {
                       SizedBox(
                         width: 230,
                         child: Text(modulos.Dica,
-                        textAlign: TextAlign.justify,
+                        textAlign: TextAlign.center,
                         softWrap: true,
                         style: TextStyle(
                           color: Colors.white,

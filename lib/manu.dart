@@ -4,10 +4,10 @@ class ManuPage extends StatelessWidget {
   const ManuPage({super.key});
 
 final String opa = 
-'Parece que esta pagina ainda\n'
-'não está terminada.\n\n'
-'Volte quando nossos programadores\n'
-'terminarem ela.\n';
+'Parece que você esta tentando\n'
+'conseguir o conhecimento absoluto.\n\n'
+'Lembre-se que é difícil aprender\n'
+'mas no final vale a pena.\n';
 
 
   @override

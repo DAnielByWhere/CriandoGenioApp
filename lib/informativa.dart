@@ -200,7 +200,7 @@ _launchURL(Uri url) async {
           ),
 
           SizedBox(
-            height: 430,
+            height: 700,
             width: 400,
             child: Stack(
               children: 
@@ -243,7 +243,7 @@ _launchURL(Uri url) async {
             ),
 
           Container(
-              height: 400,
+              height: 600,
               width: 300,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
@@ -272,7 +272,7 @@ _launchURL(Uri url) async {
                       SizedBox(
                         width: 230,
                         child: Text(modulos.Dica,
-                        textAlign: TextAlign.justify,
+                        textAlign: TextAlign.center,
                         softWrap: true,
                         style: TextStyle(
                           color: Colors.white,
